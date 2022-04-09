@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: slategrey;
+}
+
+input {
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Babylonica", cursive;
+  width: 100%;
+  height: 150px;
+  font-size: 100px;
+  text-align: center;
+  color: crimson;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+}
+
+button {
+  margin: 25px;
+  color: black;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#display {
+  font-family: 'Shadows Into Light', cursive;
+  height: 400px;
+  font-size: 30px;
+  text-align: center;
+}
